@@ -9,10 +9,12 @@ public class PrimeNumGenerator {
         n=sc.nextInt();
         for (int i=2;i<=n;i++)
         {
+           // System.out.println(i+"i");
             boolean isPrime=true;
 
             for(int j=2;j<=i/2;j++)
             {
+                //System.out.println(j+"j");
                 if (i % j == 0)
                 {
                     isPrime=false;
